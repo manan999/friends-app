@@ -6,7 +6,7 @@ const Cardlist = ({friends}) => {
 	return (
 		<div>
 			{   friends.map( (user, i) => {
-					return (<Card key={i} id={user.id} name={user.name} rn={user.username} link={user.link}/>) ;
+					return (<Card key={i} id={user.id} name={user.name} rn={user.realname} link={user.link}/>) ;
 					} )	}
 		</div>	
 		) ;
