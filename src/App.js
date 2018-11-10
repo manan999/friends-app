@@ -5,6 +5,7 @@ import Scroll from './Scroll.js' ;
 import {friends} from './friend.js' ;
 import './App.css' ;
 
+
 class App extends Component {
 	constructor()
 	{
