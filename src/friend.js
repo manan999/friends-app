@@ -281,4 +281,4 @@ const friends = [
   }
 ];
 
-export default const ;
+export default friends ;
