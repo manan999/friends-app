@@ -10,7 +10,7 @@ class App extends Component {
 	{
 		super() ;
 		this.state = {
-			friends : friends ,
+			friends : [] ,
 			searchText : '' ,
 		}
 	}
@@ -19,7 +19,7 @@ class App extends Component {
 	{
 		fetch('http://magic-brain-api.herokuapp.com/avenger')
 		.then(response => response.json())
-		.then(user => this.setState({friends : user}) ) ;
+		.then(data => this.setState({friends : data}) ) ;
 	}
 
 	onSC = (event) => {
