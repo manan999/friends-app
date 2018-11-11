@@ -1,4 +1,4 @@
-export const friends = [
+const friends = [
   {
     id: 1,
     name: 'Captain America',
@@ -280,3 +280,5 @@ export const friends = [
     link : 'https://image.ibb.co/mWHac7/wonder_man.jpg'
   }
 ];
+
+export default const ;

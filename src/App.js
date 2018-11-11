@@ -9,7 +9,7 @@ import './App.css' ;
 class App extends Component {
 	constructor()
 	{
-		super()
+		super() ;
 		this.state = {
 			friends : friends ,
 			searchText : '' ,
