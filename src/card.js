@@ -5,7 +5,7 @@ import 'tachyons' ;
 const Card = (props) => {
 	return (
 		<div className="cards" >
-			<img src = {props.link} alt = 'Cap_Ame' width='200px' height = '200px'/>
+			<img src = {props.link} alt = 'Cap_Ame' />
 			<div>
 				<h2> {props.name} </h2>
 				<p> {props.rn} </p>

@@ -26,7 +26,37 @@
 {	font-size: 1.4em ;
 }
 
+.cards img
+{	height : 200px ;
+	width : 200px ;
+}
+
 .cards:hover
 {
 	transform: scale(1.05) ;
+}
+
+
+@media (max-width: 600px) {
+  .cards
+ { 	border-radius: 0.5rem ;
+	padding : 0.5rem ;
+	margin : 0.25rem ;
+	border-width: 0.125rem;
+	box-shadow : 2px 2px 4px 0px rgba( 0, 0, 0, 0.2 ); 
+  }
+  .cards img 
+  {
+  	 height : 100px ;
+	 width : 100px ;	 
+  }
+
+  .cards h2
+  {
+	font-size: 0.9em;
+  }
+
+  .cards p
+ {	font-size: 0.7em ;
+ }
 }

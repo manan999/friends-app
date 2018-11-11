@@ -12,3 +12,10 @@ h1
 	color : cyan ;
 	font-weight: 200 ;
 }
+
+@media (max-width: 600px) {
+  h1 
+  {
+  	font-size : 3.2em; 	 
+  }
+}
