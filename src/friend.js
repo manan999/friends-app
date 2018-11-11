@@ -1,4 +1,4 @@
-const friends = [
+export const friends = [
   {
     id: 1,
     name: 'Captain America',
@@ -281,4 +281,4 @@ const friends = [
   }
 ];
 
-export default friends ;
+
