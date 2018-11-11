@@ -2,9 +2,8 @@ import React, {Component} from 'react' ;
 import Cardlist from './cardlist.js' ;
 import Searchbox from './Search.js' ;
 import Scroll from './Scroll.js' ;
-import {friends} from './friend.js' ;
+// import {friends} from './friend.js' ;
 import './App.css' ;
-
 
 class App extends Component {
 	constructor()
@@ -16,12 +15,12 @@ class App extends Component {
 		}
 	}
 
-	// componentDidMount()
-	// {
-	// 	fetch('https://jsonplaceholder.typicode.com/users')
-	// 	.then(response => response.json())
-	// 	.then(user => this.setState({friends : user}) ) ;
-	// }
+	componentDidMount()
+	{
+		fetch('http://magic-brain-api.herokuapp.com/avenger')
+		.then(response => response.json())
+		.then(user => this.setState({friends : user}) ) ;
+	}
 
 	onSC = (event) => {
 		this.setState({searchText : event.target.value}) ;
